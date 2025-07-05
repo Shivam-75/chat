@@ -1,0 +1,106 @@
+.chat {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.chat h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.chat-content {
+  border: 1px solid rgb(142, 140, 140);
+  height: 300px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 40px;
+  gap: 20px;
+}
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgb(131, 131, 131);
+  outline: none;
+}
+button {
+  border: none;
+  padding: 10px;
+  transition: 0.6s;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: blue;
+}
+.form-msg {
+    height: 40px;
+    padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  margin: 20px auto;
+  position: sticky;
+  bottom: 0;
+
+}
+::-webkit-scrollbar{
+    overflow:hidden
+}
+.form-msg input {
+    width: 60%;
+    margin: 0;
+}
+.form-msg button{
+    width: 40%;
+    margin: 0;
+    background-color: blue;
+}
+
+.sole{
+    /* border: 1px solid  black; */
+    height: 90vmin;
+    width: 80%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.sole h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.sole-msg{
+    display: flex;
+    flex-direction: column; 
+    padding: 10px
+}
+.sole-msgs{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.msgd{
+    width: 20%;
+    border-radius: 10px;
+    padding: 0 20px;
+    word-wrap: break-word;
+    margin: 10px;
+}
+.sj{
+    font-size: 15px;
+    color: blue;
+    font-weight: 800;
+    padding: 10px 0;
+
+}
